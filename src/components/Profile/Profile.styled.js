@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Box = styled.div`
-  width: 100%;
-  max-width: 480px;
+  width: 280px;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
@@ -20,7 +19,9 @@ export const Descr = styled.div`
 export const Avatar = styled.img`
   width: 80px;
   height: 80px;
+  margin-top: 20px;
   border-radius: 50%;
+  background-color: lightgrey;
 `;
 
 export const Name = styled.p`

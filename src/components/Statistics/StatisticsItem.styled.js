@@ -14,7 +14,8 @@ export const Item = styled.div`
   align-items: center;
   background-color: #f2f2f2;
   padding: 10px;
-  border-radius: 8px;
+
+  border: 1px solid grey;
 `;
 
 export const Label = styled.div`
